@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <!-- Head -->
+  <!-- Required meta tags -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="invitaciones digitales para eventos">
+  <meta name="keywords"
+    content="invitaciones, digitales, tarjetas, boda, invitación, interactivas, casamiento, save the date, agenda la fecha, ideas invitación, tarjetas de 15, tarjetas eventos, wedding, matrimonio, ideas tarjetas, rsvp, modelos de invitacion, página de boda, página web de casamiento">
+
+  <!-- Listado de css con version dinamica segun modificacion de archivo -->
+  <link rel="stylesheet" href="./15 Juanita Iriarte_files/bootstrap.min.css">
+  <link rel="stylesheet" href="./15 Juanita Iriarte_files/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="./15 Juanita Iriarte_files/styles.css">
+  <!-- Font -->
+  <link href="./15 Juanita Iriarte_files/css2" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link href="./15 Juanita Iriarte_files/all.min.css" rel="stylesheet">
+
+  <!-- Title -->
+  <title>
+    15 Juanita Iriarte</title>
+</head>
+
+<body>
+  <div class="parallax-mirror"
+    style="visibility: hidden; z-index: -100; position: fixed; top: 0px; left: 0px; overflow: hidden; transform: translate3d(0px, -934px, 0px); height: 953px; width: 1903px;">
+    <img class="parallax-slider" src="assets/img/portada.jpg"
+      style="transform: translate3d(0px, 689.2px, 0px); position: absolute; height: 1069px; width: 1903px; max-width: none;">
+  </div>
+
+  <!-- Audio -->
+  <section class="audio">
+    <div class="container">
+      <div class="row">
+        <div class="botonAudio-container">
+          <audio id="audioPrueba" loop="">
+            <source src="assets/musica.mp3" type="audio/mp3">
+            ¡Ups! Tu navegador no soporta este archivo de audio.
+          </audio>
+          <div class="animation">
+            <img id="btnPlay" src="./15 Juanita Iriarte_files/icono-musica_play.svg" alt="boton play"
+              onclick="playAudio()" class="botonAudio vertical_shake">
+
+            <img id="btnPausa" src="./15 Juanita Iriarte_files/icono-musica_pausa.svg" class="botonAudio pulse hidden"
+              onclick="pauseAudio()" alt="boton pausa">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portada -->
+  <section class="portada parallax-portada d-flex justify-content-center align-items-center">
+
+    <!-- Logo central -->
+    <div class="logo-portada fade-in-portada">
+      <img class="" src="./15 Juanita Iriarte_files/logo-portada.png" alt="">
+      <div class="scroll-down"></div>
+    </div>
+
+  </section>
+
+  <!-- Cuenta Regresiva -->
+  <section class="cuenta-regresiva" id="cuenta-regresiva">
+    <div class="container">
+      <!-- Contenedor de cuenta regresiva -->
+      <p class="m-3">¡Te espero para festejar este gran momento de mi vida!</p>
+      <p id="reloj" class="descartar">¡Te espero para festejar!</p>
+      <div class="row justify-content-center margenSup" id="reloj_number">
+        <div class="col-md-1 col-2 d-flex flex-column justify-content-center p-0">
+          <p class="num_cuenta" id="dias">00</p>
+          <p class="text_cuenta">días</p>
+        </div>
+        <p class="num_cuenta">:</p>
+        <div class="col-md-1 col-2 d-flex flex-column justify-content-center p-0">
+          <p class="num_cuenta" id="horas">11</p>
+          <p class="text_cuenta">hs</p>
+        </div>
+        <p class="num_cuenta">:</p>
+        <div class="col-md-1 col-2 d-flex flex-column justify-content-center p-0">
+          <p class="num_cuenta" id="min">43</p>
+          <p class="text_cuenta">min</p>
+        </div>
+        <p class="num_cuenta">:</p>
+        <div class="col-md-1 col-2 d-flex flex-column justify-content-center p-0">
+          <p class="num_cuenta" id="seg">50</p>
+          <p class="text_cuenta">seg</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Ceremonia y Fiesta -->
+  <section class="ceremonia-fiesta mb-5">
+    <div class="container">
+      <div class="row">
+        <!-- Icono -->
+        <div class="col-md-12 columna">
+          <img src="./15 Juanita Iriarte_files/icono-fiesta.svg" alt="" class="circle bounce-in">
+        </div>
+        <!-- Texto -->
+        <div class="col-md-12 columna no-margin-top divFiesta animated fadeInUp">
+          <h4>FIESTA</h4>
+          <p>
+            Sábado 18 de Diciembre de 2024 a las 21:30 hs.<br>
+            Quinta de Pottetti. Ruta Nac. N5 km 261, Nueve de Julio, Pcia. Bs As.<br>
+            Clickeá en el botón de abajo y encontrá las indicaciones para llegar,<br>
+            ¡nos vemos!🙌
+          </p>
+          <a target="_blank" href="https://maps.app.goo.gl/JruRuJKAM6C3RuGA9" class="btn">CÓMO LLEGAR</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Galeria -->
+  <section class="galeria">
+    <div class="container">
+      <div class="row">
+        <!-- Impmrimo el bloque con la imagen -->
+        <div class="col-6 col-md-3 item-galeria animated opacidad fadeInUp" style="opacity: 1;">
+          <a href="./15 Juanita Iriarte_files/1.jpg" data-fancybox="images" data-caption="">
+            <img class="img-fluid" src="./15 Juanita Iriarte_files/1.jpg" alt="">
+          </a>
+        </div>
+        <!-- Impmrimo el bloque con la imagen -->
+        <div class="col-6 col-md-3 item-galeria animated opacidad fadeInUp" style="opacity: 1;">
+          <a href="./15 Juanita Iriarte_files/2.jpg" data-fancybox="images" data-caption="">
+            <img class="img-fluid" src="./15 Juanita Iriarte_files/2.jpg" alt="">
+          </a>
+        </div>
+        <!-- Impmrimo el bloque con la imagen -->
+        <div class="col-6 col-md-3 item-galeria animated opacidad fadeInUp" style="opacity: 1;">
+          <a href="./15 Juanita Iriarte_files/3.jpg" data-fancybox="images" data-caption="">
+            <img class="img-fluid" src="./15 Juanita Iriarte_files/3.jpg" alt="">
+          </a>
+        </div>
+        <!-- Impmrimo el bloque con la imagen -->
+        <div class="col-6 col-md-3 item-galeria animated opacidad fadeInUp" style="opacity: 1;">
+          <a href="./15 Juanita Iriarte_files/4.jpg" data-fancybox="images" data-caption="">
+            <img class="img-fluid" src="./15 Juanita Iriarte_files/4.jpg" alt="">
+          </a>
+        </div>
+        <!-- Impmrimo el bloque con la imagen -->
+        <div class="col-6 col-md-3 item-galeria animated opacidad fadeInUp" style="opacity: 1;">
+          <a href="./15 Juanita Iriarte_files/5.jpg" data-fancybox="images" data-caption="">
+            <img class="img-fluid" src="./15 Juanita Iriarte_files/5.jpg" alt="">
+          </a>
+        </div>
+        <!-- Impmrimo el bloque con la imagen -->
+        <div class="col-6 col-md-3 item-galeria animated opacidad fadeInUp" style="opacity: 1;">
+          <a href="./15 Juanita Iriarte_files/6.jpg" data-fancybox="images" data-caption="">
+            <img class="img-fluid" src="./15 Juanita Iriarte_files/6.jpg" alt="">
+          </a>
+        </div>
+        <!-- Impmrimo el bloque con la imagen -->
+        <div class="col-6 col-md-3 item-galeria animated opacidad fadeInUp" style="opacity: 1;">
+          <a href="./15 Juanita Iriarte_files/7.jpg" data-fancybox="images" data-caption="">
+            <img class="img-fluid" src="./15 Juanita Iriarte_files/7.jpg" alt="">
+          </a>
+        </div>
+        <!-- Impmrimo el bloque con la imagen -->
+        <div class="col-6 col-md-3 item-galeria animated opacidad fadeInUp" style="opacity: 1;">
+          <a href="./15 Juanita Iriarte_files/8.jpg" data-fancybox="images" data-caption="">
+            <img class="img-fluid" src="./15 Juanita Iriarte_files/8.jpg" alt="">
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Confirmar Asistencia -->
+  <section class="confirmar-asistencia">
+    <div class="container">
+      <h4>CONFIRMACIÓN DE ASISTENCIA</h4>
+      <p>¡Cuento con tu presencia!<br>Confirmá tu asistencia antes del <span style="font-weight: 600;">5 de
+          Enero.</span></p>
+      <a target="_blank" href="https://forms.gle/Hkcv3n3jGMrXF3aw5" class="btn">Confirmar asistencia</a>
+    </div>
+  </section>
+
+  <!-- Dress Code -->
+  <section class="dresscode">
+    <div class="container animated divDressCode fadeInUp">
+      <img src="./15 Juanita Iriarte_files/icono-dresscode.svg" alt="" class="bounce-in">
+      <h4>DRESS CODE</h4>
+      <p>Elegante Sport.<br>Evitar colores blancos y plateados.</p>
+    </div>
+  </section>
+
+  <!-- Canciones -->
+  <section class="canciones">
+    <div class="container">
+      <img src="./15 Juanita Iriarte_files/icono-canciones.svg" alt="" class="bounce-in">
+      <br>
+      <div class="animated divCanciones fadeInUp">
+        <h4>¡PLAYLIST!</h4>
+        <p>¡Ayúdame sugiriendo las canciones que no pueden faltar en la fiesta!</p>
+        <a target="_blank" href="https://forms.gle/iD96PywqDMvUbQM47" class="btn btn-alt">Sugerir canción</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CBU -->
+  <section class="cbu">
+    <div class="container">
+      <img src="./15 Juanita Iriarte_files/icono-regalo.svg" alt="" class="bounce-in">
+      <div class="animated divCbu fadeInUp">
+        <p>El mejor regalo es tu presencia,<br>
+          pero si deseas tener un gesto especial, puedes contribuir a mis sueños y metas✨ <br>
+          ¡Muchas gracias!</p>
+        <a data-fancybox="" data-src="#hidden-cbu" href="javascript:;" data-options="{&quot;touch&quot; : false}"
+          class="btn btn-alt">Hacer un regalo</a>
+
+        <!-- Datos Cbu -->
+        <div style="display: none;" id="hidden-cbu" class="">
+          <span class="title">Datos Bancarios</span>
+          <ul>
+            <li>Banco: Santander</li>
+            <li>Tipo y número de cuenta: Cuentas en Pesos 368-004628/6</li>
+            <li>Número de CBU: 0720368688000000462868</li>
+            <li>Alias de CBU: marianacastearena.1</li>
+            <li>Titular de la cuenta: Castearena Mariana</li>
+            <li>Tipo y número de documento: DNI - 31530790</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gracias -->
+  <section class="gracias">
+    <div class="container animated divGracias fadeInUp">
+      <p>¡Gracias por estar conmigo en este momento tan especial!</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <section class="footer">
+    <div class="containter">
+      <p> <a target="_blank" href="https://www.linkedin.com/in/juan-franciscostillo/">Juan Stillo</a>
+        2024. <br> Todos los
+        derechos reservados <br>
+      </p>
+    </div>
+  </section>
+
+  <!-- Varaibles para JS desde config -->
+  <script>
+    // Cuenta regresiva
+    var fechaCuentaRegresiva = "01/18/2025 22:00:00";
+    // Datos para Agenda
+    var fechaInicioEvento = "01/18/2025 21:00:00";
+    var fechaFinEvento = "01/19/2025 04:00:00";
+    var tituloEvento = "Fiesta de 15";
+  </script>
+  <!-- Scripts Generales-->
+  <!-- Listado de js con version dinamica segun modificacion de archivo -->
+  <script type="text/javascript" src="./15 Juanita Iriarte_files/jquery-3.5.1.slim.min.js.descarga"></script>
+  <script type="text/javascript" src="./15 Juanita Iriarte_files/popper.min.js.descarga"></script>
+  <script type="text/javascript" src="./15 Juanita Iriarte_files/bootstrap.min.js.descarga"></script>
+  <script type="text/javascript" src="./15 Juanita Iriarte_files/parallax.min.js.descarga"></script>
+  <script type="text/javascript" src="./15 Juanita Iriarte_files/jquery.fancybox.min.js.descarga"></script>
+  <script type="text/javascript" src="./15 Juanita Iriarte_files/scripts.js.descarga"></script>
+  <script>'undefined' === typeof _trfq || (window._trfq = []); 'undefined' === typeof _trfd && (window._trfd = []), _trfd.push({ 'tccl.baseHost': 'secureserver.net' }, { 'ap': 'cpbh-mt' }, { 'server': 'p3plmcpnl486752' }, { 'dcenter': 'p3' }, { 'cp_id': '3446280' }, { 'cp_cl': '8' }) // Monitoring performance to make your website faster. If you want to opt-out, please contact web hosting support.</script>
+  <script src="./15 Juanita Iriarte_files/tccl.min.js.descarga"></script>
+</body>
+
+</html>
